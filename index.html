@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="sp">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" type="module" defer></script>
+</head>
+<body>
+    <div class="container">
+        <span class="big-circle"></span>
+        <img src="img/shape.svg" class="square" alt="">
+        <div class="form">
+            <div class="contact-info">
+                <h3 class="title"></h3>
+                <p class="text"></p>
+
+                <div class="info">
+                    <div class="information">
+                        <i class="fa-sharp fa-solid fa-location icon"></i>
+                        <p></p>
+                    </div>
+                    <div class="information">
+                        <i class="fa-solid fa-envelope icon"></i>
+                        <p></p>
+                    </div>
+                    <div class="information">
+                        <i class="fa-solid fa-phone-volume icon"></i>
+                        <p></p>
+                    </div>
+                </div>
+               
+                <div class="social-media">
+                    <p></p>
+                    <div class="social-icons">
+                        <a href="#">
+                            <i class="fab fa-facebook-f"></i>    
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-twitter"></i>    
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-instagram"></i>    
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-linkedin-in"></i>    
+                        </a>
+
+                    </div>
+                </div>    
+            </div>
+            <div class="contact-form">
+                <span class="circle one"></span>
+                <span class="circle two"></span>
+                <form id="myFrom" action="https://havertzz.000webhostapp.com/Actividad_Maquetacion_04_03/api.php">
+                    <h3 class="title"></h3>
+                    <div class="input-container">
+                        <input type="text" name="name" class="input"/>
+                        <label for=""></label>
+                        <span></span>
+                    </div>
+                    <div class="input-container">
+                        <input type="email" name="email" class="input"/>
+                        <label for=""></label>
+                        <span></span>
+                    </div>
+                    <div class="input-container">
+                        <input type="tel" name="phone" class="input"/>
+                        <label for=""></label>
+                        <span></span>
+                    </div>
+                    <div class="input-container textarea">
+                        <textarea name="message" class="input"></textarea>
+                        <label for=""></label>
+                        <span></span>
+                    </div>
+                    <input type="submit" value="Send" class="btn"/>
+                </form>   
+            </div>      
+        </div>
+    </div>    
+</body>
+</html>
