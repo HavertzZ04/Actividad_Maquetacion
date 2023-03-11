@@ -267,13 +267,24 @@ textarea.input{
 .contact-info:before{
     content: "";
     position: absolute;
-    width: 90px;
-    height: 90px;
+    width: 160px;
+    height: 160px;
     border-radius: 50%;
-    background: linear-gradient(25deg, var(--background) 20%, var(--form));    
-    bottom: 30px;
-    right: 60px;
+    background: linear-gradient(to bottom, var(--form), var(--color-two));
+    bottom: -80px;
+    right: 40px;
 
+}
+
+.contact-info::after{
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    background-color: var(--background);
+    border-radius: 50%;
+    bottom: -60px;
+    right: 60px;
 }
 
 .big-circle{
